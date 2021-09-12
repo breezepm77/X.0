@@ -37,7 +37,7 @@ const checkWin = () => {
 
     const winner = nextStep === 'X' ? 'O' : 'X';
 
-    setGameStatus("Oyin !!!, G'olib:" + winner);
+    setGameStatus("Oyin tugadi!!!,Oyin G'olibi:" + winner);
     isFinished = true;
 };
 
