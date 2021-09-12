@@ -1,0 +1,58 @@
+main {
+    position: relative;
+    background: orange;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.status {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    color: royalblue;
+    margin-left: 550px;
+}
+
+.container {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: red;
+    border: 1px solid blue;
+    box-sizing: border-box;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    width: 450px;
+    height: 450px;
+    background: red;
+    border: 1px solid blue;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell {
+    width: 150px;
+    height: 150px;
+    background: red;
+    border: 1px solid blue;
+    box-sizing: border-box;
+
+    font-size: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Architects Daughter, sans-serif;
+}
